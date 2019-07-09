@@ -1,0 +1,63 @@
+.aside-bar {
+    padding: 5px;
+
+    .learning-style-plus-icon {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+
+    .ant-menu-inline {
+        border: none !important;
+    }
+
+    .ant-menu-sub.ant-menu-inline>.ant-menu-item {
+        height: fit-content !important;
+
+    }
+
+    .ant-menu-item {
+        white-space: initial !important;
+        line-height: initial !important;
+    }
+    .fix-width-message{
+        width:200px;
+        margin: 0 auto;
+    }
+
+    .aside-assessment {
+        width: 160px;
+        height: 80px;
+        border-radius: 10px;
+        box-shadow: -0.1px 1px 5px 0 rgba(0, 0, 0, 0.16);
+        background-color: #f7f7f7;
+        text-align: center;
+        padding: 5px;
+
+        .aside-assessment-icon {
+            margin-right: 0px;
+        }
+
+        .aside-assessment-title {
+            color: #393c40;
+            font-weight: 600;
+            font-size: 13px;
+            margin-top: 10px;
+        }
+    }
+    .keywords-form{
+        width:63%;
+        margin:0 auto;
+        input{
+            margin-bottom: 10px;
+        }
+        button{
+            width:100%;
+        }
+    }
+    .keywords-list{
+        width: 63%;
+        margin: 10px auto;
+    }
+
+}

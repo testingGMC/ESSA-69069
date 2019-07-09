@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TestCase /> Should render and match the snapshot 1`] = `
+<div
+  class="test-case input-output-row"
+>
+  <textarea
+    class="ant-input input"
+    type="text"
+  />
+  <textarea
+    class="ant-input output default-border"
+    type="text"
+  />
+  <div>
+    <button
+      class="ant-btn test-btn ant-btn-primary"
+      type="button"
+    >
+      <span>
+        Test
+      </span>
+    </button>
+    <span
+      class="answer"
+    />
+  </div>
+</div>
+`;

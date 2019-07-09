@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SprintBoard /> should render and match the snapshot 1`] = `
+<div
+  class="sprint-board"
+>
+  <div
+    class="ant-row-flex row-title"
+    style="margin-left: -12px; margin-right: -12px;"
+  >
+    <div
+      class="ant-col ant-col-xs-24 ant-col-sm-24 ant-col-md-8 ant-col-lg-8 ant-col-xl-8"
+      style="padding-left: 12px; padding-right: 12px;"
+    />
+    <div
+      class="ant-col ant-col-xs-24 ant-col-sm-24 ant-col-md-16 ant-col-lg-16 ant-col-xl-16"
+      style="padding-left: 12px; padding-right: 12px;"
+    >
+      <div
+        class="sprint-filter global-flex-horizontal-end"
+      />
+    </div>
+  </div>
+  <div
+    class="ant-spin-nested-loading"
+  >
+    <div>
+      <div
+        class="ant-spin ant-spin-spinning"
+      >
+        <span
+          class="ant-spin-dot ant-spin-dot-spin"
+        >
+          <i
+            class="ant-spin-dot-item"
+          />
+          <i
+            class="ant-spin-dot-item"
+          />
+          <i
+            class="ant-spin-dot-item"
+          />
+          <i
+            class="ant-spin-dot-item"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      class="ant-spin-container ant-spin-blur"
+    >
+      <div
+        class="content"
+      >
+        <div
+          class="ant-row"
+          style="margin-left: -12px; margin-right: -12px;"
+        >
+          <div
+            class="ant-alert ant-alert-info ant-alert-with-description ant-alert-no-icon"
+            data-show="true"
+          >
+            <span
+              class="ant-alert-message"
+            >
+              <span>
+                No active sprint
+              </span>
+            </span>
+            <span
+              class="ant-alert-description"
+            >
+              <span>
+                There is no active sprint. Add a new sprint
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

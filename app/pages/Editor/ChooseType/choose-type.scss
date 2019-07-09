@@ -1,0 +1,21 @@
+.learning-style-type{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.08);
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    .learning-style-type-icon{
+        font-size: 35px;
+    }
+    .learning-style-type-name{
+        margin-top:20px;
+        font-size: 18px;
+        color: #393c40;
+       
+    }
+    
+}

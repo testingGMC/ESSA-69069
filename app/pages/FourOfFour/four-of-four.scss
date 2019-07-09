@@ -1,0 +1,28 @@
+.four-of-four{
+    .content {
+        width: 1170px;
+        margin: 0 auto;
+        // padding: 50px;
+        height: calc(100vh - 65px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .page-not-found-title {
+            color: #393c40;
+            font-weight: 500;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        .page-not-found-description{
+          color: #979797;
+            font-weight: 004;
+            font-size: 18px;
+            a{
+              color:#393c40;
+              text-decoration: none;
+            }
+        }
+    }
+}

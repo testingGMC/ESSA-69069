@@ -1,0 +1,19 @@
+.ant-card {
+    padding: 13px;
+    .ant-card-head {
+        border-bottom: none;
+        .ant-card-head-title {
+            color: #202224;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+    }
+    .content{
+        color: #202224;
+        font-size: 13px;
+        font-weight: 400;
+        text-align: justify;
+    }
+    
+}

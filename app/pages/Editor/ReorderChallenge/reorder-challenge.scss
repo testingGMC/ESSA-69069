@@ -1,0 +1,26 @@
+.reorder-challenge {
+    .reorder-challenge-content {
+        padding: 20px 200px;
+        .reorder-challenge-sub-title{
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+        .reorder-challenge-list{
+            background-color: #fff;
+        }
+        
+        .reorder-challenge-add{
+            margin-top:20px;
+        }
+
+        .reorder-challenge-actions {
+            text-align: right;
+            button {
+                margin-top: 20px;
+            }
+        }
+    }
+
+}

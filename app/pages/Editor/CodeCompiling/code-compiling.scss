@@ -1,0 +1,93 @@
+.code-compiling {
+    .code-compiling-content {
+        padding: 0px 10px;
+
+        .label {
+            text-transform: capitalize;
+            font-size: 16px;
+            font-weight: 700;
+
+        }
+
+        .ace_editor,
+        .ace_editor div {
+            font-family: monospace !important
+        }
+
+        .preview-button {
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+
+        .code-compiling-statement {
+            margin-bottom: 15px;
+            margin-top: 15px;
+
+            .label {
+                margin-bottom: 10px;
+            }
+
+        }
+
+        .editor-languages {
+            margin-bottom: 15px;
+
+            .label {
+                margin-bottom: 10px;
+            }
+
+            .ant-select {
+                width: 100%;
+            }
+
+        }
+
+        .solution-editor {
+            margin-bottom: 15px;
+
+            .editor {
+                margin-top: 15px;
+            }
+
+        }
+
+        .placeholder-editor {
+            margin-bottom: 15px;
+
+            .editor {
+                margin-top: 15px;
+            }
+
+            .label {
+                text-transform: capitalize;
+            }
+
+        }
+
+        .input-output-cases-container {
+            .label-row {
+                display: grid;
+                grid-template-columns: 50% 50%;
+                margin-bottom: 10px;
+
+            }
+
+            .input-output-row {
+                margin-bottom: 10px;
+                display: grid;
+                grid-template-columns: 50% 50%;
+
+                .input {
+                    width: 95%;
+                }
+
+                .delete-btn {
+                    width: 114px;
+                    justify-self: end;
+                    margin-top: 12px;
+                    grid-column: 2/2;
+                }
+            }
+        }
+    }
+}

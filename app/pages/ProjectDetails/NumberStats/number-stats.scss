@@ -1,0 +1,21 @@
+.number-stats {
+    padding: 7px;
+    justify-content: space-between;
+    align-items: center;
+    .number-description {
+        text-align: right;
+        padding-right: 50px;
+
+        .number {
+            font-size: 25px;
+            color: #393c40;
+            font-weight: bold;
+        }
+
+        .number-text {
+            font-size: 14px;
+            color: #979797;
+        }
+    }
+
+}

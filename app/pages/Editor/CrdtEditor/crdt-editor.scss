@@ -1,0 +1,22 @@
+.crdt-editor{
+/********************
+Cursors
+********************/
+
+}
+.crdt-remote-cursor {
+    width: 2px;
+    position: absolute;
+    top: 0px;
+  }
+  
+  .crdt-remote-cursor-flag {
+    top: -6px;
+    font-size: 14px;
+    left: -2px;
+    position: absolute;
+    line-height: 15px;
+    color: white;
+    margin: 2px;
+  }
+  

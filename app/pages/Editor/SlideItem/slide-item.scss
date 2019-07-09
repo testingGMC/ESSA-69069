@@ -1,0 +1,23 @@
+.slide-item{
+    border: 1px solid #d9d9d9;
+    height: 90px;
+    width:170px;
+    padding:10px 20px;
+    border-radius: 5px;
+
+    &:hover{
+        border: 1px solid orange;
+        cursor: pointer;
+    }
+    span {
+        padding-top: 25px;
+        position: relative;
+        display: flex;
+        font-weight: 600;
+        justify-content: center;
+    }
+
+}
+.selected-page {
+    border: 2px solid #40a9ff;
+}

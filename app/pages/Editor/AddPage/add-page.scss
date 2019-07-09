@@ -1,0 +1,15 @@
+.add-page {
+    width: 100%;
+    height: 100%;
+    padding:20px 100px;
+   
+    .add-page-row {
+        height: 100%;
+        .add-page-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+}

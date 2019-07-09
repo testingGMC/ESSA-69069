@@ -1,0 +1,32 @@
+.transform{
+    .download{
+        i{
+            font-size: 20px;
+        }
+    }
+    .ant-card-actions{
+        display: flex;
+        justify-content: space-between;
+        background: #eaeefb;
+        margin: 0 -13px -13px -13px;
+        padding: 0 10%;
+        & > li{
+            width: initial !important;
+            & > span{
+                cursor: initial
+            }
+        }
+        span{
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .circle{
+            border-radius: 50%;
+            width: 13px;
+            height: 13px;
+            display: inline-block;
+            margin-right: 5px;
+            border: 1px solid #c1c1c1
+        }
+    }
+}

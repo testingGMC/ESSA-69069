@@ -1,0 +1,67 @@
+.issues {
+    padding: 27px 23px 47px 35px;
+
+    .row-title {
+        align-items: center;
+        margin-bottom: 27px;
+
+        .ant-page-header {
+            display: inline-flex;
+            align-items: center;
+            padding: 16px 4px;
+
+            .ant-page-header-title-view-title {
+                font-size: 28px;
+            }
+        }
+
+        .issues-filter {
+            text-align: right;
+
+            .filter-by {
+                color: #aaaeb3;
+                margin-right: 10px;
+            }
+
+
+
+            .ant-select-selection {
+                background-color: transparent !important;
+                border: none !important;
+
+                .ant-select-selection__placeholder {
+                    top: 61% !important;
+                    right: 4px !important;
+                    left: -18px !important;
+                    text-align: right !important;
+                    font-size: 13px;
+                    font-weight: 600;
+                }
+
+                .ant-select-selection-selected-value {
+                    color: #bfbfbf;
+                    top: 11% !important;
+                    right: 4px !important;
+                    left: -18px !important;
+                    text-align: right !important;
+                    position: absolute;
+                    padding-right: 0px;
+                }
+            }
+
+        }
+    }
+
+    .ant-table-thead>tr,
+    .ant-table-tbody>tr {
+        background: white;
+    }
+
+    .ant-table-column-title {
+        color: #aaaeb3;
+        font-size: 14px;
+    }
+
+
+
+}

@@ -1,0 +1,36 @@
+.transform-menu{
+    .possible-changes{
+        height: 477px;
+        .changes{
+            font-size: 18px;
+            div{
+                margin-bottom: 20px;
+            }
+            i{
+                margin-left: 6px;
+                margin-right: 6px;
+                position: relative;
+                top: -3px
+            }
+        }
+        .buttons{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 35px;
+            .button{
+                background-color: #2a4bd8;
+                border-color: #2a4bd8;
+                margin-bottom: 25px;
+            }
+            .preview{
+                width: 110px;
+                height: 43px; 
+            }
+            .check-and-apply{
+                width: 130px;
+                height: 43px;
+            }
+        }
+    }
+}

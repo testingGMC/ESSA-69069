@@ -1,0 +1,250 @@
+.editor {
+    .CodeMirror {
+        height: 330px;
+
+        .CodeMirror-vscrollbar {
+            overflow-y: hidden;
+        }
+
+        .CodeMirror-hscrollbar {
+            overflow-x: hidden;
+        }
+
+        .CodeMirror-sizer,
+        .CodeMirror-code,
+        .editor-preview,
+        .editor-preview-active {
+            width: 1040px;
+
+        }
+
+    }
+
+
+    .ant-row,
+    .ant-row-flex {
+        width: 100%;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .delete-page-icon {
+        margin-left: 10px;
+    }
+
+    .editor-header {
+        background-color: #0f0f10;
+        color: white;
+        height: 80px;
+        align-items: center;
+
+        .right-actions {
+            padding: 18px;
+            text-align: left;
+
+            .save {
+                font-size: 25px;
+            }
+        }
+
+        .title {
+            padding: 18px;
+            text-align: center;
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+        .left-actions {
+            display: flex;
+
+            .users {
+                padding: 18px;
+
+                .ant-tooltip-inner {
+                    color: red !important;
+                    background-color: white !important;
+                    border: 1px solid rgb(250, 237, 237) !important;
+                }
+                .connected-user-avatar{
+                    position: relative;
+                    vertical-align: middle;
+                }
+            }
+
+            .close {
+                border-left: 1px solid #FFF;
+                padding-right: 18px;
+                padding-left: 18px;
+                height: 80px;
+
+                div, a {
+                    font-size: 17px;
+                    font-weight: bold;
+                    color: #FFF;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+
+    }
+
+    .editor-content {
+        height: calc(100vh - 100px);
+        position: relative;
+        background-color: #FFF;
+
+        .col-pages {
+            padding-left: 0px !important;
+
+
+
+            .pages {
+                background-color: #FFF;
+                width: 237px;
+                box-shadow: 0px 3px 9px 0 rgba(0, 0, 0, 0.3);
+                height: calc(100vh - 100px);
+                overflow-y: auto;
+                overflow-x: hidden;
+                padding: 20px;
+
+                &::-webkit-scrollbar {
+                    width: 3px;
+                }
+
+                &::-webkit-scrollbar-track {
+                    background-color: white;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background-color: #40a9ff;
+                    outline: 1px solid slategrey;
+                    border-radius: 50px 50px;
+                }
+
+            }
+
+
+            .mdx-box {
+                .index {
+                    margin-right: 10px;
+                }
+
+                margin-bottom: 20px;
+            }
+
+
+        }
+
+        .text-box-with-arrows {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .skill-arrow {
+                font-size: 25px;
+
+            }
+
+            .text-box {
+                width: 1051px;
+                margin: 20px auto;
+                height: 449px;
+                padding: 0px;
+                border: 1px dashed red;
+                background-color: #f7f7f7;
+
+            }
+        }
+
+        .assessment-box {
+            width: 1051px;
+            margin: 20px auto;
+            padding: 20px;
+            height: 449px;
+            overflow: auto;
+            background-color: #f7f7f7;
+        }
+
+        .assessment-title {
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+
+        .drawer {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+
+            .div-primary {
+                background-color: red;
+                line-height: 0;
+                background-color: #40a9ff;
+                border-color: #40a9ff;
+                width: 25px;
+                color: white;
+                padding: 5px;
+                border-radius: 2px;
+            }
+        }
+
+        .ant-drawer,
+        .ant-drawer-mask,
+        .ant-drawer-content-wrapper {
+            position: absolute !important;
+
+            .ant-drawer-body {
+                padding: 0px !important;
+            }
+
+        }
+    }
+
+    .editor-footer {
+        background-color: #d9d9d9;
+        color: #393c40;
+        height: 36px;
+        padding: 5px 30px 5px 100px;
+        font-size: 13px;
+        align-items: center;
+        position: fixed;
+        bottom: 0px;
+        z-index: 900;
+
+        .status {
+            font-size: 13px;
+            font-weight: 500;
+            color: #393c40;
+        }
+       .reconnecting {
+            color: #2980b9
+        }
+        .connected {
+            color: #27ae60
+        }
+        .disconnected {
+            color: #e74c3c
+        }
+
+        .preview {
+            text-align: right;
+
+            .footer-icon {
+                margin-right: 15px;
+                font-size: 16px;
+
+            }
+        }
+
+        .footer-chat {
+            text-align: right;
+        }
+
+    }
+
+    .plus {
+        font-size: 25px;
+    }
+}

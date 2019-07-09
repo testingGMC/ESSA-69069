@@ -1,0 +1,48 @@
+export const issues = [
+  {
+    id: '1',
+    name: 'Erreur',
+    description: 'Lorem Ipsum dolor aset amit lorem ipsum dolor aset',
+    creationDateTime: '06/11/2019',
+    reportedBy: 'Ahmed Ben Sassi',
+    status: 'acknowledged',
+    skillId: '1',
+  },
+  {
+    id: '2',
+    name: 'Maintenance',
+    description:
+      'Lorem Ipsum dolor aset amit lorem ipsum dolor aset Lorem Ipsum dolor aset amit lorem ipsum dolor aset Lorem Ipsum dolor aset amit lorem ipsum dolor aset',
+    creationDateTime: '06/11/2019',
+    reportedBy: 'Salah Mejri',
+    status: 'rejected',
+    skillId: '2',
+  },
+  {
+    id: '3',
+    name: 'Maintenance',
+    description: 'Lorem Ipsum dolor aset amit lorem ipsum dolor aset',
+    creationDateTime: '06/11/2019',
+    reportedBy: 'Salah Mejri',
+    status: 'duplicated',
+    skillId: '1',
+  },
+  {
+    id: '4',
+    name: 'Maintenance',
+    description: 'Lorem Ipsum dolor aset amit lorem ipsum dolor aset',
+    creationDateTime: '06/11/2019',
+    reportedBy: 'Salah Mejri',
+    status: 'resolved',
+    skillId: '1',
+  },
+  {
+    id: '5',
+    name: 'Maintenance',
+    description: 'Lorem Ipsum dolor aset amit lorem ipsum dolor aset',
+    creationDateTime: '06/11/2019',
+    reportedBy: 'Salah Mejri',
+    status: 'pending',
+    skillId: '1',
+  },
+]

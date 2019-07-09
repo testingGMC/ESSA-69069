@@ -1,0 +1,63 @@
+$blank-color: #fffbe6;
+$placeholder-color:#e6f7ff;
+$new-line-color:#f6ffed;
+
+$blank-border-color: #ffe58f;
+$placeholder-border-color:#91d5ff;
+$new-line-border-color:#b7eb8f;
+
+.fill-in-the-blanks {
+    .fill-in-the-blanks-content {
+        padding: 20px 200px;
+        .fill-in-the-blanks-sub-title{
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            margin-top:30px;
+        }
+        
+        .fill-in-the-blanks-add{
+            margin-top:20px;
+        }
+
+        .fill-in-the-blanks-actions {
+            text-align: right;
+            button {
+                margin-top: 20px;
+                margin-left:20px;
+            }
+        }
+        .preview{
+            padding:10px;
+            min-height: 50px;
+            border: 1px solid #d9d9d9;
+            border-radius: 4px;
+        }
+        .blank-button{
+            background-color: $blank-color;
+            border-color: $blank-border-color;
+        }
+        .placeholder-button{
+            background-color: $placeholder-color;
+            border-color: $placeholder-border-color;
+        }
+        .new-line-button{
+            background-color: $new-line-color;
+            border-color: $new-line-border-color;
+        }
+        .blank-class{
+            background-color: $blank-color;
+        }
+        .placeholder-class{
+            background-color: $placeholder-color;
+        }
+        .new-line-class{
+            background-color: $new-line-color;
+           span{
+                display: inline-block;
+                width: 100%;             
+            }
+        }
+    }
+
+}

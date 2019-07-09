@@ -1,0 +1,68 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: titan-app
+  namespace: x
+spec:
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: titan-app
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: titan-app
+    spec:
+      containers:
+        - name: titan-app
+          image: docker-registry.eng.gomycode.co:443/gomycode/titan-dev:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 5004
+          env:
+            - name: NODE_ENV
+              value: "dev"
+      imagePullSecrets:
+        - name: gomycode-registry-creds
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: titan-app
+  namespace: x
+  labels:
+    app: titan-app
+spec:
+  ports:
+    - name: http
+      port: 5004
+      protocol: TCP
+      targetPort: 5004
+  selector:
+    app: titan-app
+  type: ClusterIP
+
+---
+
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: titan-app
+  namespace: x
+spec:
+  tls:
+    - hosts:
+        - titan.eng.gomycode.co
+      secretName: default-tls-gomycode-co
+  rules:
+    - host: titan.eng.gomycode.co
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: titan-app
+              servicePort: 5004

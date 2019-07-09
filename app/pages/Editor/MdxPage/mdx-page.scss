@@ -1,0 +1,46 @@
+.page-title span{
+    padding-top: 25px;
+    position: relative;
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+}
+.mdx-page{
+    border: 1px solid #d9d9d9;
+    height: 90px;
+    width:170px;
+    padding:10px 20px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    &:hover{
+        border: 1px solid orange;
+        cursor: pointer;
+    }
+
+    p {
+        font-size: 1px;
+    }
+    img,iframe,table {
+        max-width: 30px;
+        max-height: 30px
+    }
+    h1 {
+        font-size: 9px
+    }
+    h2 {
+        font-size: 8px
+    }
+    h3 {
+        font-size: 7px
+    }
+    h4 {
+        font-size: 6px
+    }
+    h5,h6 {
+        font-size: 5px
+    }
+}
+.selected-page {
+    border: 2px solid #40a9ff;
+}

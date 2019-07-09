@@ -1,0 +1,78 @@
+.drawer-header-versions-history {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #FFF;
+    padding: 20px;
+
+}
+
+.drawer-content-timeline {
+    padding: 20px 0px 20px 20px;
+
+    height: calc(100% - 86px);
+    .ant-timeline-item-last{
+        .ant-timeline-item-tail{
+            border-left: 2px solid #e8e8e8 !important;
+            display: initial !important;
+        }
+    }
+    .see-all{
+        a{
+            color: white !important;
+            padding-right: 20px;
+        }
+    }
+
+
+    .ant-timeline-item-head {
+        background-color: #2a4bd8;
+
+    }
+
+    .ant-timeline-item-content {
+        color: white;
+        font-size: 12px;
+        top: -3px;
+        height: fit-content;
+
+        // padding-bottom: 30px;
+
+        .timeline-detail {
+
+
+            border-top: 1px solid #fff;
+            margin-left: -12px;
+            margin-top: 5px;
+            &last{
+                border-bottom: 1px solid #fff;
+            }
+
+            .timeline-commit-title {
+                font-size: 15px;
+                font-weight: bold;
+                padding: 14px 20px 0px 20px;
+
+            }
+
+            .timeline-commit-date {
+                font-size: 12px;
+                font-weight: 400;
+                padding: 0px 0px 0px 20px;
+            }
+
+            .timeline-commit-owner {
+                display: flex;
+                padding: 10px 0px 10px 20px;
+                .timeline-commit-owner-name {
+                    font-size: 13px;
+                    font-weight: bold;
+                    text-decoration: underline;
+                    margin-left: 5px;
+                    margin-top: -2px;
+                }
+            }
+        }
+
+    }
+}

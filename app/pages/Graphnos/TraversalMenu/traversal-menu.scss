@@ -1,0 +1,56 @@
+.simulate-menu{
+    .nodes{
+        height: 451px;
+        overflow: auto;
+        li{
+            font-size: 16px;
+            color: #2a4bd8;
+        }
+    }
+    .buttons{
+        display: flex;
+        .finish{
+            background-color: #2a4bd8;
+            border-color: #2a4bd8;
+            width: 146px;
+            height: 43px;
+            margin: auto;
+            margin-top: 20px;
+        }
+    }
+    .actions{
+        justify-content: space-between;
+        background: white;
+        margin: 0 -13px -13px -13px;
+        padding: 0 30%;
+        border: none;
+        & > li{
+            width: initial;
+            border: none;
+            & > span{
+                cursor: initial;
+                width: 100%
+            }
+        }
+        span{
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .icons{
+            font-size: 40px;
+            color: #2a4bd8;
+            // width: 120px;
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0;
+        }
+        .ant-slider{
+            .ant-slider-track{
+                background-color: #2a4bd8
+            }
+            .ant-slider-handle{
+                border-color: #2a4bd8
+            }
+        }
+    }
+}

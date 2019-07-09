@@ -1,0 +1,93 @@
+.work-item {
+    margin-top: 16px;
+    padding: 15px;
+    border: solid 1px #ebebeb;
+    position: relative;
+    background-color: #fff;
+
+    &.task {
+        border-left: 3px solid #ffcb09;
+    }
+
+    &.bug {
+        border-left: 3px solid red;
+    }
+
+    .name {
+        font-size: 15px;
+        font-weight: 600;
+        color: #393c40;
+        margin-bottom: 5px;
+
+        .span-name {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width:90%;
+            &:hover{
+                cursor:pointer;
+                text-decoration: underline;
+            }
+
+        }
+
+        .icon {
+            font-size: 11px;
+            color: #2a4bd8;
+            margin-right: 2px;
+        }
+    }
+
+    .rest-of-details {
+        .date {
+            margin-left: 10px;
+            font-size: 13px;
+            font-weight: normal;
+            color: #979797;
+        }
+    }
+
+
+    .top-right {
+        position: absolute;
+        top: 0px;
+        right: 3px;
+
+        button {
+            border: none;
+            box-shadow: none;
+            color: #cecece;
+        }
+    }
+
+    .menu {
+        position: absolute;
+        top: 16px;
+        right: 22px;
+        border: solid 1px #ebebeb;
+        background-color: #ffffff;
+        box-shadow: 0 4px 9px 1px rgba(0, 0, 0, 0.1);
+        z-index: 9999;
+
+        .ant-menu-vertical {
+            border-right: none;
+
+            &>.ant-menu-item {
+                height: 21px !important;
+                width: 130px;
+                line-height: 21px !important;
+                font-size: 13px;
+            }
+        }
+    }
+
+}
+
+.user-card-overlay-block {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}

@@ -1,0 +1,20 @@
+export const NodeCreated = 0 // Server message
+export const NodeDeleted = 1 // Server message
+export const LinkCreated = 2 // Server message
+export const LinkDeleted = 3 // Server message
+export const CreateOrLoadSkillInstance = 4
+export const CloseOrUnloadSkillInstance = 5
+export const Sync = 6
+export const ContentOperations = 7
+export const SkillUpdate = 8
+export const Chat = 9
+export const SelectText = 10
+export const UpdateCursorPosition = 11
+export const UpdateSelectedElement = 12
+export const CollaboratorJoined = 13
+export const CollaboratorLeft = 14 // Server message
+export const SyncPageOperations = 15 // Server message
+
+export const InstanceSaved = 17
+export const LinkUpdated = 18
+export const NodeUpdated = 19

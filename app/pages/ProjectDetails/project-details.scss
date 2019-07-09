@@ -1,0 +1,126 @@
+.project-details {
+    padding: 27px 23px 47px 35px;
+
+    .row-title {
+        margin-bottom: 27px;
+
+        .ant-page-header {
+            display: inline-flex;
+            align-items: center;
+            padding: 16px 4px;
+
+            .ant-page-header-title-view-title {
+                font-size: 28px;
+            }
+        }
+    }
+
+    .ant-row {
+        width: 100%;
+    }
+
+    .project-title {
+        font-size: 28px;
+        font-weight: bold;
+
+        padding-right: 24px;
+    }
+
+    .project-icon {
+        font-size: 20px;
+        color: #cecece;
+        display: inline-block;
+        position: relative;
+        color: #cecece;
+        cursor: pointer;
+    }
+
+    .project-board  {
+        a{
+        text-align: right;
+        color: #979797;
+        font-size: 18px;
+        font-weight: 600;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        }
+        .link {
+            margin-right: 20px;
+        }
+    }
+
+    .row-title {
+        align-items: center;
+    }
+
+    .project-content,
+    .stats-content {
+        height: 200px;
+    }
+
+    .period {
+        color: #aeaeae;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+
+    .custom-row {
+        margin-top: 24px;
+    }
+
+    .team-members {
+        .team-members-extra {
+            .add-member {
+                font-size: 13px;
+                font-weight: 600;
+                margin-right: 40px;
+                color: #979797;
+                cursor: pointer;
+                margin-left: 40px;
+            }
+
+            button {
+
+                width: 26px;
+                height: 26px;
+                background-color: #ececec;
+
+                &.ant-btn-circle {
+                    font-size: 13px !important;
+                }
+            }
+        }
+
+        .ant-card-body {
+            overflow: auto;
+            height: 300px;
+
+            &::-webkit-scrollbar {
+                width: 3px;
+            }
+
+            &::-webkit-scrollbar-track {
+                background-color: white;
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background-color: #2a7bdb;
+                outline: 1px solid slategrey;
+                border-radius: 50px 50px;
+            }
+        }
+    }
+
+    .with-margin-bottom {
+        margin-bottom: 24px;
+    }
+
+    .no-members {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+    }
+}

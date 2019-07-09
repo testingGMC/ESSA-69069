@@ -1,0 +1,53 @@
+.ant-card-body {
+    padding: 15px;
+}
+
+.ant-card-meta-detail div:not(:last-child) {
+    margin-bottom: 0px;
+}
+
+.ant-avatar {
+    margin-top: 4px;
+}
+
+.card-body-container {
+    width: 100%;
+    overflow: hidden;
+    height: 126px;
+
+}
+
+.x-card {
+    .project-card {
+        width: 90%;
+
+        .card-style {
+            margin-bottom: 30px;
+
+            height: 140px;
+            border-radius: 3px;
+            background-color: #eeeeee;
+
+            .card-container {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .card-title {
+
+                font-size: 20px;
+                font-Weight: 700;
+            }
+
+            .card-description {
+                font-size: 16px;
+                color: black;
+            }
+
+
+        }
+    }
+
+
+
+}

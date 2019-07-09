@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FourOfFour/> should render and match the snapshot 1`] = `
+<div
+  class="four-of-four error-pages"
+>
+  <div
+    class="content"
+  >
+    <div
+      class="page-not-found-title"
+    >
+      <span>
+        Page not found
+      </span>
+    </div>
+    <div
+      class="page-not-found-description"
+    >
+      <span>
+        Sorry, nothing to see here
+      </span>
+      <br />
+      <span>
+        Visit our
+      </span>
+      <a
+        href="/dashboard"
+      >
+         
+        <span>
+          home page
+        </span>
+      </a>
+      .
+    </div>
+  </div>
+</div>
+`;

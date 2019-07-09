@@ -1,0 +1,14 @@
+.add-assessment {
+    width: 100%;
+    height: 100%;
+    padding:20px 100px;
+   
+    .add-assessment-row {
+        height: 100%;
+        .add-assessment-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}

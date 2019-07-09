@@ -1,0 +1,96 @@
+.chat {
+    position: fixed;
+    bottom: 36px;
+    right: 0px;
+
+    background-color: #FFF;
+    width: 284px;
+    height: 351px;
+    box-shadow: -0.1px 1px 6.9px 0.1px rgba(0, 0, 0, 0.24);
+    border-top-left-radius: 20px;
+     padding: 0px 13px;
+     z-index: 1000;
+    .chat-close{
+        text-align: right;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .type-message {
+        .message-input {
+            position: absolute;
+            bottom: 23px;
+            width: 248px;
+            input {
+                background-color: #eaeaea;
+                padding-right: 49px;
+
+            }
+        }
+    }
+    .message-block {
+        height: 254px;
+        overflow-y: auto;
+
+    }
+    .message-sent {
+        .message-text {
+            margin-right: 5px;
+            margin-left: auto;
+            padding: 12px 11px 10px 14px;
+            background-color: #2a4bd8;
+            width: 180px;
+            color: white;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+        .message-date {
+            width: 120px;
+            margin-top: 5px;    
+            margin-right: 8px;
+            color: rgba(0, 0, 0, 0.24);
+            margin-left: auto;
+        }
+        
+    }
+
+    .message-received {
+        .message {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 7px;
+            .message-text {
+                width: 180px;
+                background-color: #eaeaea;
+                padding: 12px 11px 10px 14px;
+                border-radius: 20px;
+                color: #393c40;
+            }
+            .message-date {
+                color: rgba(0, 0, 0, 0.24);
+
+            }
+        }
+    }
+
+    .message-block::-webkit-scrollbar-track
+    {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+
+    .message-block::-webkit-scrollbar
+    {
+        width: 8px;
+        background-color: #F5F5F5;
+    }
+
+    .message-block::-webkit-scrollbar-thumb
+    {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: gray;
+    }
+
+    
+}

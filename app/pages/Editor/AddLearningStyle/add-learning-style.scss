@@ -1,0 +1,14 @@
+.add-learning-style {
+    width: 100%;
+    height: 100%;
+    padding:20px 200px;
+   
+    .add-learning-style-row {
+        height: 100%;
+        .add-learning-style-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}

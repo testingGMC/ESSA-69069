@@ -1,0 +1,98 @@
+.skill-network{
+    .header-actions{
+        display: flex;
+        justify-content: space-between;
+        width: 550px;
+        .weight-edit{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #2a4bd8;
+            .arrows{
+                display: flex;
+                flex-direction: column;
+            }
+            span{
+                width: 30px;
+                margin-top: 5px
+            }
+            .link{
+                margin-left: 12px;
+                font-size: 24px;
+            }
+        }
+        .icon{
+            margin-left: 12px;
+            i{
+                font-size: 25px
+            }
+        }
+    }
+
+    .graph-zone{
+        display: flex;
+        .ant-empty{
+            margin: auto
+        }
+    }
+    .ant-card-head-title {
+        .liveshare-connection-status{
+            border-radius: 50%;
+            width: 13px;
+            height: 13px;
+            display: inline-block;
+            margin-right: 5px;
+        }
+        .disconnected {
+            background-color: #e74c3c
+        }
+        .connected {
+            background-color: #16a085
+        }
+        .reconnecting {
+            background-color: #2980b9
+        }
+    }
+    .ant-card-actions{
+        display: flex;
+        justify-content: space-between;
+        background: #eaeefb;
+        margin: 0 -13px -13px -13px;
+        padding: 0 15%;
+        & > li{
+            width: initial;
+            & > span{
+                cursor: initial
+            }
+        }
+        span{
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .circle{
+            border-radius: 50%;
+            width: 13px;
+            height: 13px;
+            display: inline-block;
+            margin-right: 5px;
+        }
+        .skill{
+            background-color: #e74c3c
+        }
+        .super-skill{
+            background-color: #3a9d23
+        }
+        .track{
+            background-color: #2980b9
+        }
+        .checkpoint{
+            background-color: #e1a101
+        }
+        .reward{
+            background-color: #800080
+        }
+        .workshop{
+            background-color: #FF6633
+        }
+    }
+}

@@ -1,0 +1,2 @@
+export const CRDT_INSERT_OPERATION = 0
+export const CRDT_DELETE_OPERATION = 1
